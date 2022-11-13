@@ -14,6 +14,7 @@ function HomePage() {
       <CSSReset />
       <div style={estilosDaHome}>
         <Menu></Menu>
+        <Banner></Banner>
         <Header></Header>
         <Timeline playlists={config.playlists}></Timeline>
       </div>
@@ -55,6 +56,10 @@ function Header() {
       </section>
     </StyledHeader>
   );
+}
+
+function Banner(banner) {
+  <Image src={config.banner} key="img-banner"></Image>;
 }
 
 function Timeline(propriedades) {
