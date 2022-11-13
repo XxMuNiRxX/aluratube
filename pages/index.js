@@ -70,7 +70,7 @@ function Timeline(propriedades) {
         // console.log(playlistsNames);
         // console.log(videos);
         return (
-          <section key={section}>
+          <section key="section">
             <h2>{playlistsNames}</h2>
             <div>
               {videos.map((video) => {
